@@ -1,0 +1,19 @@
+[2026-10-29 09:32:54] OP=EXIT | SRC= | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:34:25] OP=CREATE_FILE | SRC=c | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:37:53] OP=READ_FILE | SRC=test.txt | DST= | RES=FAILURE | ERR=Not found
+[2026-10-29 09:39:17] OP=CREATE_FILE | SRC=touch notes.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:39:45] OP=READ_FILE | SRC=notes.txt | DST= | RES=FAILURE | ERR=Not found
+[2026-10-29 09:42:22] OP=CREATE_FILE | SRC=notes.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:42:35] OP=READ_FILE | SRC=notes.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:43:31] OP=CHECK_EXISTS | SRC=touch notes.txt | DST= | RES=EXISTS | ERR=
+[2026-10-29 09:43:50] OP=CHECK_EXISTS | SRC=notes.txt | DST= | RES=EXISTS | ERR=
+[2026-10-29 09:44:16] OP=ABSOLUTE_PATH | SRC=notes.txt | DST=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/notes.txt | RES=SUCCESS | ERR=
+[2026-10-29 09:44:43] OP=DISPLAY_EXTENSION | SRC=notes.txt | DST= | RES=SUCCESS | ERR=txt
+[2026-10-29 09:45:47] OP=RENAME_FILE | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/notes.txt | DST=owais.txt | RES=SUCCESS | ERR=
+[2026-10-29 09:47:52] OP=COPY_FILE | SRC=owais.txt | DST=copy_owais.txt | RES=SUCCESS | ERR=
+[2026-10-29 09:49:29] OP=APPEND_FILE | SRC=owais.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:49:46] OP=READ_FILE | SRC=owais.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:52:37] OP=MKDIR | SRC=OS | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:55:42] OP=GETCWD | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility | DST= | RES=SUCCESS | ERR=
+[2026-10-29 09:56:05] OP=LIST_DIR | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:32:28] OP=EXIT | SRC= | DST= | RES=SUCCESS | ERR=

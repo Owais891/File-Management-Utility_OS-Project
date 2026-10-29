@@ -1,0 +1,19 @@
+[2026-10-29 10:04:43] OP=CHDIR | SRC=logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:05:01] OP=DIR_STATS | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:07:21] OP=GETCWD | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:08:12] OP=SEARCH_NAME | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=owais.txt | RES=NO_MATCH | ERR=
+[2026-10-29 10:08:28] OP=SEARCH_NAME | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=notes.txt | RES=NO_MATCH | ERR=
+[2026-10-29 10:09:09] OP=LIST_DIR | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:10:21] OP=SEARCH_NAME | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=. | RES=NO_MATCH | ERR=
+[2026-10-29 10:10:40] OP=SEARCH_NAME | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=activity.log | RES=MATCH | ERR=
+[2026-10-29 10:11:42] OP=SEARCH_PARTIAL | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=act | RES=MATCH | ERR=
+[2026-10-29 10:12:18] OP=SEARCH_EXT | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=log | RES=MATCH | ERR=
+[2026-10-29 10:13:28] OP=METADATA | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:17:06] OP=VIEW_PERMS | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=rwxrwxrwx 777
+[2026-10-29 10:18:32] OP=CHMOD | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST=755 | RES=CANCELLED | ERR=User declined
+[2026-10-29 10:19:23] OP=CHMOD | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:19:32] OP=ACCESS | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:20:24] OP=PERM_DEMO | SRC=demo_perm.txt | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:21:31] OP=DIR_STATS | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs | DST= | RES=SUCCESS | ERR=
+[2026-10-29 10:27:56] OP=ORGANIZE | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs/activity.log | DST=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/output/Others/activity.log | RES=SUCCESS | ERR=
+[2026-10-29 10:27:56] OP=ORGANIZE | SRC=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/logs/demo_perm.txt | DST=/mnt/c/Users/s/OneDrive/Desktop/FileManagementUtility/OS/output/Documents/demo_perm.txt | RES=SUCCESS | ERR=

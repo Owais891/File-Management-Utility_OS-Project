@@ -1,0 +1,3 @@
+Hello, Operating Systems class!
+This is a sample text file used for testing the File Management Utility.
+Third line of content.
